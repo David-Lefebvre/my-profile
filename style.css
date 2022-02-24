@@ -1,0 +1,88 @@
+/*color and fonts*/
+body {
+	background-color: lightgrey;
+	color: whitesmoke;
+	font-family: 'Gideon Roman', cursive;;
+}
+
+h1,h2{
+	font-weight: 900;
+}
+h1 {
+	font-family: monospace, Helvetica;
+	font-size: 56px;
+}
+
+h2 {
+	font-family: serif;
+	color: black;
+	font-size: 30px; 	
+}
+
+a:hover {
+	color: black;
+}
+
+
+
+
+/*Custom design with class*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-widght:  760px) {
+	container{
+	width: 600px;
+	} 
+}
+
+@media (max-widght:  500px) {
+	container{
+	width: 400px;
+	} 
+}
+
+.card-grey {
+	background-color: grey;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 25%;
+}
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue: hover {
+	background-color: black;
+	color: white;
+}
+
+.list-horizontale {
+	list-style:  none;
+	padding-left:  0px;
+}
+.list-horizontale li {
+	display:  inline;
+	padding:  10px;	
+	font-size: 50px;
+}
+.list-horizontale i:  hover {
+	color: black;
+}
+#introduction p {
+	margin-bottom: 50px;
+}
+
+
+
+
+
